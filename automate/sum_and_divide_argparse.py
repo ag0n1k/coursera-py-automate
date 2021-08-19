@@ -7,9 +7,9 @@ def logic(x: list, twice=False):
         if v == 0:
             continue
         if i > 0 and i % 4 == 0:
-            res = res // v
+            res = res / v
             if twice:
-                res = res // v
+                res = res / v
         else:
             res += v
             if twice:
